@@ -17,7 +17,7 @@
 
 .home-content-text {
   width: 50%;
-  padding: 1rem 0rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   color: #092a5e;
   font-size: 36px;
   font-weight: 700;
@@ -50,15 +50,17 @@
     .home-content {
       padding-top: unset;
       justify-content: center;
-      flex-wrap: wrap-reverse;
+      flex-wrap: wrap;
       padding-top: 6rem;
     }
 
     .home-content-text {
         width: 90%;
+        font-size: 30px;
+        height: 150px;
     }
     .home-img {
-        width: 100%;
+        width: 250px;
     }
 
   }
