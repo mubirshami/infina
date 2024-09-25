@@ -6,6 +6,7 @@ import Terms from "./components/terms";
 import Privacy from "./components/privacy";
 import Signup from "./components/signup";
 import ForgotPassword from "./components/forgot-password";
+import Packages from "./components/packages";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route path="/packages" element={<Packages />} />
         </Routes>
       </Router>
     </div>
