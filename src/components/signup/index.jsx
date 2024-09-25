@@ -88,11 +88,11 @@ const Signup = () => {
             </button>
           </div>
           <div className="signup-footer">
-            <a href="/#/terms" className="footer-link">
+            <a href="infina/#/terms" className="footer-link">
               Terms and Conditions
             </a>
             <span className="separator">|</span>
-            <a href="/#/privacy" className="footer-link">
+            <a href="infina/#/privacy" className="footer-link">
               Privacy Policy
             </a>
           </div>

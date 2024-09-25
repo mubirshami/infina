@@ -38,7 +38,7 @@ const Login = () => {
               <label>Remember me</label>
             </div>
             <div className="forgot-password">
-              <a href="/#/forgot-password">Forgot password?</a>
+              <a href="infina/#/forgot-password">Forgot password?</a>
             </div>
           </div>
           <div className="login-button">
@@ -51,9 +51,9 @@ const Login = () => {
             </button>
           </div>
           <div className="login-footer">
-            <a href="/#/terms" className="footer-link">Terms and Conditions</a>
+            <a href="infina/#/terms" className="footer-link">Terms and Conditions</a>
             <span className="separator">|</span>
-            <a href="/#/privacy" className="footer-link">Privacy Policy</a>
+            <a href="infina/#/privacy" className="footer-link">Privacy Policy</a>
           </div>
         </form>
       </div>
