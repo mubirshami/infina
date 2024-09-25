@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/infina/static/css/main.791d4189.css",
-    "main.js": "/infina/static/js/main.57e06c24.js",
+    "main.js": "/infina/static/js/main.c63cd75a.js",
     "static/js/453.451182d1.chunk.js": "/infina/static/js/453.451182d1.chunk.js",
     "static/media/home-nenja.png": "/infina/static/media/home-nenja.045da0b409cfbbc745f0.png",
     "static/media/nenja-logo.png": "/infina/static/media/nenja-logo.19d6fdbd41dabe052dc5.png",
     "index.html": "/infina/index.html",
     "main.791d4189.css.map": "/infina/static/css/main.791d4189.css.map",
-    "main.57e06c24.js.map": "/infina/static/js/main.57e06c24.js.map",
+    "main.c63cd75a.js.map": "/infina/static/js/main.c63cd75a.js.map",
     "453.451182d1.chunk.js.map": "/infina/static/js/453.451182d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.791d4189.css",
-    "static/js/main.57e06c24.js"
+    "static/js/main.c63cd75a.js"
   ]
 }
