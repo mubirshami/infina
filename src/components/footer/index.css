@@ -1,0 +1,30 @@
+.footer-styles {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #092A5E;
+    text-align: center;
+    color: white;
+    bottom: 0px;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.terms {
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
+
+.description {
+    margin: 0.5rem 0rem 0.25rem 0rem;
+    font-size: 14px;
+}
