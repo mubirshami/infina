@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import "./index.css";
 import Header from "../header";
 import HomeImage from "../../assets/home-nenja.png";
 import Footer from "../footer";
 
 const Home = () => {
-  const texts = [
+  const texts = useMemo(() => [
     "Boost Your Portfolio with Infiina's AI-Backed Forex Expertise!",
     "Consistent Profits, Reliable Growth – Experience the Infiina Advantage!",
     "Secure, AI-Powered Trading for Returns You Can Count On!",
     "Join Infiina – Where Cutting-Edge Technology Meets Lucrative Returns!",
     "AI Precision, Expert Strategy – Infiina Ensures Your Path to 300% Return!",
     "Secure, Expert-Guided Investments for Consistent Monthly Returns of 8%-14%",
-  ];
+  ], []);
 
   const [text, setText] = useState(texts[0]);
   const [index, setIndex] = useState(0);
@@ -42,7 +42,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
