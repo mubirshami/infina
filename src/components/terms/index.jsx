@@ -8,17 +8,17 @@ const Terms = () => {
   return (
     <div className="terms-container">
       <div className="terms-image">
-        <img src={TermsImage} alt="Nenja Logo" className="terms-img" onClick={()=> navigate("/")} />
+        <img src={TermsImage} alt="Infiina Logo" className="terms-img" onClick={()=> navigate("/")} />
       </div>
       <h1 className="terms-h2">Terms of Use</h1>
       <div className="terms-content">
         <div className="terms-content-heading">Introduction</div>
         <div className="terms-content-text">
-          Welcome to nenja.ai ("Nenja", "we", "our", or "us"). By using our
+          Welcome to Infiina.ai ("Infiina", "we", "our", or "us"). By using our
           website / Mobile Application/APIs , services, and products
           ("Services"), you agree to comply with and be bound by the following
           terms and conditions ("Terms"). Please review them carefully as these
-          terms form a contract between you and Nenja (nenja.ai).
+          terms form a contract between you and Infiina (Infiina.ai).
         </div>
         <div className="terms-content-heading">Acceptance of Terms</div>
         <div className="terms-content-text">
@@ -35,7 +35,7 @@ const Terms = () => {
         </div>
         <div className="terms-content-heading">Description of Services </div>
         <div className="terms-content-text">
-          Nenja provides various services, including access to our website,
+          Infiina provides various services, including access to our website,
           APIs, mobile applications, and other software services. These services
           may include, but are not limited to, content such as software, data,
           text, audio, video, images, photos, graphics, or other materials
@@ -68,7 +68,7 @@ const Terms = () => {
           <p>
             This provides you with information about the risks associated with
             investment products, in which you may invest, through services
-            provided to you by Nenja (nenja.ai).
+            provided to you by Infiina (Infiina.ai).
             <br />
             The cryptocurrency market is extremely volatile and unpredictable.
             Cryptocurrency prices can experience significant fluctuations over
@@ -177,7 +177,7 @@ const Terms = () => {
         </div>
         <div className="terms-content-heading">Limitation of Liability</div>
         <div className="terms-content-text">
-          Nenja, its affiliates, and service providers, as well as their
+          Infiina, its affiliates, and service providers, as well as their
           respective officers, directors, agents, employees, or representatives,
           will not be liable for any indirect, incidental, special,
           consequential, or punitive damages, or any loss of profits or
@@ -197,7 +197,7 @@ const Terms = () => {
         </div>
         <div className="terms-content-heading">Indemnification</div>
         <div className="terms-content-text">
-          You agree to indemnify and hold harmless Nenja, its affiliates, and
+          You agree to indemnify and hold harmless Infiina, its affiliates, and
           their respective officers, directors, employees, affiliates and agents
           from and against any and all claims, liabilities, damages, losses, or
           expenses, including reasonable attorneys' fees and costs, arising out
@@ -209,13 +209,13 @@ const Terms = () => {
         <div className="terms-content-text">
           These Terms and any disputes arising out of or related to these Terms
           or the Services will be governed by and construed in accordance with
-          the laws of the jurisdiction in which Nenja is located, without regard
+          the laws of the jurisdiction in which Infiina is located, without regard
           to its conflict of law principles.
         </div>
         <div className="terms-content-heading">Contact Information</div>
         <div className="terms-content-text">
           If you have any questions about these Terms, please contact us at
-          support@nenja.ai. <br />
+          support@Infiina.ai. <br />
           By using our Services, you agree to these Terms. If you do not agree,
           please do not use our Services.
         </div>

@@ -9,7 +9,7 @@ const Privacy = () => {
   return (
     <div className="privacy-container">
       <div className="privacy-image">
-        <img src={TermsImage} alt="Nenja Logo" className="privacy-img" onClick={() => navigate("/")} />
+        <img src={TermsImage} alt="Infiina Logo" className="privacy-img" onClick={() => navigate("/")} />
       </div>
       <h1 className="privacy-h2">Privacy Policy</h1>
       <div className="privacy-content-text">
@@ -49,7 +49,7 @@ const Privacy = () => {
 
             <li>
               <strong>Company </strong>(referred to as either "the Company",
-              "We", "Us" or "Our" in this Agreement) refers to Nenja Artificial
+              "We", "Us" or "Our" in this Agreement) refers to Infiina Artificial
               Intelligence, 123 Main St, New York, NY 10030.
             </li>
             <li>
@@ -92,8 +92,8 @@ const Privacy = () => {
               page visit).
             </li>
             <li>
-              <strong>Website </strong>refers to Nenja, accessible from
-              https://nenja.ai
+              <strong>Website </strong>refers to Infiina, accessible from
+              https://Infiina.ai
             </li>
             <li>
               <strong>You </strong>means the individual accessing or using the
@@ -447,7 +447,7 @@ const Privacy = () => {
         <div className="terms-content-text">
           These Terms and any disputes arising out of or related to these Terms
           or the Services will be governed by and construed in accordance with
-          the laws of the jurisdiction in which Nenja is located, without regard
+          the laws of the jurisdiction in which Infiina is located, without regard
           to its conflict of law principles.
         </div>
         <div className="terms-content-heading">Law enforcement</div>
@@ -532,7 +532,7 @@ const Privacy = () => {
           us:
           <br />
           <ul>
-            <li>By email: support@nenja.ai </li>{" "}
+            <li>By email: support@Infiina.ai </li>{" "}
           </ul>
         </div>
       </div>
