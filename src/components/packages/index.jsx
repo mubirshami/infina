@@ -3,10 +3,13 @@ import "./index.css";
 import Package1 from "../../assets/1.png";
 import Package2 from "../../assets/2.png";
 import Package3 from "../../assets/3.png";
+import Footer from "../footer";
+import Header from "../header";
 
 const Packages = () => {
   return (
     <div className="packages-container">
+      <Header />
       <div className="packages-box">
         <div className="package-1">
           <div className="package">
@@ -104,6 +107,7 @@ const Packages = () => {
           </div>
         </div> */}
       </div>
+      <Footer />
     </div>
   );
 };
