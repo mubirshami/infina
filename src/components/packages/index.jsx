@@ -10,7 +10,7 @@ const Packages = () => {
       <div className="packages-box">
         <div className="package-1">
           <div className="package">
-            <h5>Basic</h5>
+            <h5 className="package-heading">Basic</h5>
             <h5 className="percent-per-month">8% to 14% per month</h5>
             <img src={Package1} alt="Package 1" className="package-image" />
             <h5 className="price">200$ to 999$</h5>
@@ -24,13 +24,13 @@ const Packages = () => {
                 <div className="text">500$/Week</div>
               </div>
             </div>
-            <button>Buy Now</button>
+            <button className="button1">Buy Now</button>
           </div>
         </div>
 
         <div className="package-1">
           <div className="package">
-            <h5>Professional</h5>
+            <h5 className="package-heading">Professional</h5>
             <h5 className="percent-per-month">8% to 14% per month</h5>
 
             <img src={Package2} alt="Package 1" className="package-image" />
@@ -45,13 +45,13 @@ const Packages = () => {
                 <div className="text">Binary Cap 2000$/Week</div>
               </div>
             </div>
-            <button>Buy Now</button>
+            <button className="button2">Buy Now</button>
           </div>
         </div>
 
         <div className="package-1">
           <div className="package">
-            <h5>Premium</h5>
+            <h5 className="package-heading">Premium</h5>
             <h5 className="percent-per-month">8% to 14% per month</h5>
             <img src={Package3} alt="Package 1" className="package-image" />
             <h5 className="price">5000 to 25000$</h5>
@@ -65,7 +65,7 @@ const Packages = () => {
                 <div className="text">Binary Cap 7500$/Week</div>
               </div>
             </div>
-            <button>Buy Now</button>
+            <button className="button3">Buy Now</button>
           </div>
         </div>
 

@@ -77,3 +77,21 @@ body {
     border-radius: 8px;
 }
 
+.button1 {
+    background: linear-gradient(180deg, rgba(247,159,35,1) 0%, rgba(245,219,47,1) 100%);
+    color: white;
+}
+
+.button2 {
+    background: linear-gradient(180deg, rgba(186,101,167,1) 0%, rgba(230,79,142,1) 100%);
+    color: white;
+}
+
+.button3 {
+    background: linear-gradient(180deg, rgba(135,76,158,1) 0%, rgba(85,125,191,1) 100%);
+    color: white;
+}
+
+.package-heading {
+    color: white;
+}
