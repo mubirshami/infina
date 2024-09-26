@@ -5,8 +5,10 @@ import Package2 from "../../assets/2.png";
 import Package3 from "../../assets/3.png";
 import Footer from "../footer";
 import Header from "../header";
+import { useNavigate } from "react-router-dom";
 
 const Packages = () => {
+  const navigate = useNavigate();
   return (
     <div className="packages-container">
       <Header />
@@ -16,7 +18,7 @@ const Packages = () => {
             <h5 className="package-heading">Basic</h5>
             <h5 className="percent-per-month">8% to 14% per month</h5>
             <img src={Package1} alt="Package 1" className="package-image" />
-            <h5 className="price">200$ to 999$</h5>
+            <h5 className="price">$200 to $999</h5>
             <div className="des">
               <div>
                 <div className="text">Total Return 200% (Including Capital)</div>
@@ -26,7 +28,7 @@ const Packages = () => {
                 <div className="text">Payment Method - USDT In/Out</div>
               </div>
             </div>
-            <button className="button1">Buy Now</button>
+            <button className="button1" onClick={()=> navigate("/signup")}>Buy Now</button>
           </div>
         </div>
 
@@ -36,7 +38,7 @@ const Packages = () => {
             <h5 className="percent-per-month">8% to 14% per month</h5>
 
             <img src={Package2} alt="Package 1" className="package-image" />
-            <h5 className="price">1000$ to 4999$</h5>
+            <h5 className="price">$1000 to $4999</h5>
             <div className="des">
               <div>
                 <div className="text">Total Return 250% (Including Capital)</div>
@@ -46,7 +48,7 @@ const Packages = () => {
                 <div className="text">Payment Method - USDT In/Out</div>
               </div>
             </div>
-            <button className="button2">Buy Now</button>
+            <button className="button2" onClick={()=> navigate("/signup")}>Buy Now</button>
           </div>
         </div>
 
@@ -55,7 +57,7 @@ const Packages = () => {
             <h5 className="package-heading">Premium</h5>
             <h5 className="percent-per-month">8% to 14% per month</h5>
             <img src={Package3} alt="Package 1" className="package-image" />
-            <h5 className="price">5000 to 25000$</h5>
+            <h5 className="price">$5000 to $25000</h5>
             <div className="des">
               <div>
                 <div className="text">Total Return 300% (Including Capital)</div>
@@ -65,7 +67,7 @@ const Packages = () => {
                 <div className="text">Payment Method - USDT In/Out</div>
               </div>
             </div>
-            <button className="button3">Buy Now</button>
+            <button className="button3" onClick={()=> navigate("/signup")}>Buy Now</button>
           </div>
         </div>
 

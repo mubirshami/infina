@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header className="header-styles">
       <div className="header-img">
-        <img src={LogoImage} alt="Nenja Logo" className="nenja-img" />
+        <img src={LogoImage} alt="Nenja Logo" className="nenja-img" onClick={()=>navigate("/")}/>
       </div>
       <div className="header-hamburger" onClick={toggleMenu}>
         &#9776; {/* This is the hamburger icon */}

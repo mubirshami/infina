@@ -1,4 +1,4 @@
-import React, {useState}from "react";
+import React, { useState } from "react";
 import "./index.css";
 import LoginImage from "../../assets/nenja-logo.png";
 
@@ -10,8 +10,10 @@ const Signup = () => {
   const [country, setCountry] = useState("");
   const [address, setAddress] = useState("");
   const [name, setName] = useState("");
+  const [sponsorId, setSponsorId] = useState("");
 
   const isFormValid =
+    sponsorId.trim() !== "" &&
     username.trim() !== "" &&
     password.trim() !== "" &&
     email.trim() !== "" &&
@@ -28,6 +30,13 @@ const Signup = () => {
             <h2 className="signup-title">Sign Up</h2>
           </div>
           <div className="signup-fields">
+            <input
+              type="number"
+              placeholder="sponsor ID"
+              className="signup-input"
+              value={sponsorId}
+              onChange={(e) => setSponsorId(e.target.value)}
+            />
             <input
               type="text"
               placeholder="name"
