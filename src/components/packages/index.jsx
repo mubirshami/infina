@@ -19,12 +19,11 @@ const Packages = () => {
             <h5 className="price">200$ to 999$</h5>
             <div className="des">
               <div>
-                <div className="text">
-                  total return 200% ( including capital )
-                </div>
-                <div className="text">Direct bonus 8% </div>
-                <div className="text"> Binary 6% of lesser team volume</div>
-                <div className="text">500$/Week</div>
+                <div className="text">Total Return 200% (Including Capital)</div>
+                <div className="text">Direct Bonus 8%</div>
+                <div className="text">Binary - 6%</div>
+                <div className="text">Binary Cap - $500/Week</div>
+                <div className="text">Payment Method - USDT In/Out</div>
               </div>
             </div>
             <button className="button1">Buy Now</button>
@@ -40,12 +39,11 @@ const Packages = () => {
             <h5 className="price">1000$ to 4999$</h5>
             <div className="des">
               <div>
-                <div className="text">
-                  total return 250% (including capital)
-                </div>
-                <div className="text">Direct bonus 8%</div>
-                <div className="text">Binary . 7% of lesser team volume</div>
-                <div className="text">Binary Cap 2000$/Week</div>
+                <div className="text">Total Return 250% (Including Capital)</div>
+                <div className="text">Direct Bonus 8%</div>
+                <div className="text">Binary - 7%</div>
+                <div className="text">Binary Cap - $2500/Week</div>
+                <div className="text">Payment Method - USDT In/Out</div>
               </div>
             </div>
             <button className="button2">Buy Now</button>
@@ -60,12 +58,11 @@ const Packages = () => {
             <h5 className="price">5000 to 25000$</h5>
             <div className="des">
               <div>
-                <div className="text">
-                  total return 300% (including capital)
-                </div>
-                <div className="text">Direct bonus 8%</div>
-                <div className="text">Binary 8% of lesser team volume</div>
-                <div className="text">Binary Cap 7500$/Week</div>
+                <div className="text">Total Return 300% (Including Capital)</div>
+                <div className="text">Direct Bonus 8%</div>
+                <div className="text">Binary - 8%</div>
+                <div className="text">Binary Cap - $7500/Week</div>
+                <div className="text">Payment Method - USDT In/Out</div>
               </div>
             </div>
             <button className="button3">Buy Now</button>

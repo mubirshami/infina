@@ -54,17 +54,17 @@ body {
 
 .package .des {
     position: absolute;
-    top: 239px;
+    top: 230px;
     left: 29px;
     right: 28px;
 }
 
 .package .des .text {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     color: #000;
     text-align: center;
-    margin-bottom: 14px; 
+    margin-bottom: 12px; 
 }
 
 .package button {
