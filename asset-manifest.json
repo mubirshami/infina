@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/infina/static/css/main.c43b41d7.css",
-    "main.js": "/infina/static/js/main.a65d8b6b.js",
+    "main.css": "/infina/static/css/main.abfd1782.css",
+    "main.js": "/infina/static/js/main.c31a1536.js",
     "static/js/453.451182d1.chunk.js": "/infina/static/js/453.451182d1.chunk.js",
     "static/media/home-nenja.png": "/infina/static/media/home-nenja.045da0b409cfbbc745f0.png",
     "static/media/nenja-logo.png": "/infina/static/media/nenja-logo.19d6fdbd41dabe052dc5.png",
     "index.html": "/infina/index.html",
-    "main.c43b41d7.css.map": "/infina/static/css/main.c43b41d7.css.map",
-    "main.a65d8b6b.js.map": "/infina/static/js/main.a65d8b6b.js.map",
+    "main.abfd1782.css.map": "/infina/static/css/main.abfd1782.css.map",
+    "main.c31a1536.js.map": "/infina/static/js/main.c31a1536.js.map",
     "453.451182d1.chunk.js.map": "/infina/static/js/453.451182d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c43b41d7.css",
-    "static/js/main.a65d8b6b.js"
+    "static/css/main.abfd1782.css",
+    "static/js/main.c31a1536.js"
   ]
 }
