@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/home";
 import Login from "./components/login";
 import Terms from "./components/terms";
@@ -11,7 +11,7 @@ import Packages from "./components/packages";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/infina">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
