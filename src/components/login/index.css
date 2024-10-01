@@ -7,7 +7,7 @@
 }
 
 .login-box {
-  border: 1px solid #092A5E;
+  border: 1px solid #092a5e;
   border-radius: 8px;
   padding: 2rem 2rem;
 }
@@ -37,7 +37,7 @@
 
 .login-input {
   width: 100%;
-  padding: 0.75rem 0rem;
+  padding: 0.5rem;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -59,12 +59,12 @@
 
 .remember-checkbox {
   margin-right: 5px;
-  color: #092A5E;
+  color: #092a5e;
 }
 
 .forgot-password a {
   text-decoration: underline;
-  color: #092A5E;
+  color: #092a5e;
   font-size: 14px;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .login-btn.active {
-  background-color: #092A5E;
+  background-color: #092a5e;
   cursor: pointer;
 }
 
@@ -100,7 +100,7 @@
   font-size: 12px;
   text-decoration: underline;
   font-weight: bold;
-  color: #092A5E;
+  color: #092a5e;
 }
 
 .separator {
