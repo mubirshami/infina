@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 import LoginImage from "../../assets/nenja-logo.png"; // Make sure to replace with your actual image path
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -38,7 +39,7 @@ const Login = () => {
               <label>Remember me</label>
             </div>
             <div className="forgot-password">
-              <a href="forgot-password">Forgot password?</a>
+              <Link to="/forgot-password">Forgot password?</Link>
             </div>
           </div>
           <div className="login-button">
@@ -51,9 +52,9 @@ const Login = () => {
             </button>
           </div>
           <div className="login-footer">
-            <a href="terms" className="footer-link">Terms and Conditions</a>
+            <Link to="/terms" className="footer-link">Terms and Conditions</Link>
             <span className="separator">|</span>
-            <a href="privacy" className="footer-link">Privacy Policy</a>
+            <Link to="/privacy" className="footer-link">Privacy Policy</Link>
           </div>
         </form>
       </div>
