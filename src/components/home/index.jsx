@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useMemo } from "react";
-import "./index.css";
 import Header from "../header";
 import HomeImage from "../../assets/home-nenja.png";
 import Footer from "../footer";
@@ -22,7 +21,7 @@ const Home = () => {
       setIndex((prevIndex) => (prevIndex + 1) % texts.length);
     }, 4000);
 
-    return () => clearInterval(interval); // Clean up on unmount
+    return () => clearInterval(interval); 
   }, [texts.length]);
 
   useEffect(() => {
@@ -32,13 +31,13 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <div className="home-container">
-        <div className="home-content">
-          <div className="home-content-text">
+      <div className="flex flex-col justify-center items-center h-full w-full overflow-auto">
+        <div className="flex content-between items-start pb-14">
+          <div className="w-1/2 p-4 text-customBlue text-customFontSize font-bold font-customFont">
             <div className="home-heading">{text}</div>
           </div>
-          <div className="home-content-image">
-            <img src={HomeImage} alt="Home" className="home-img" />
+          <div className="w-1/2 pl-20">
+            <img src={HomeImage} alt="Home" className="w-3/4" />
           </div>
         </div>
       </div>

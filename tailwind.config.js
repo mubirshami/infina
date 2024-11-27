@@ -4,7 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        customBlue: "#092A5E",
+        customBlue: "#092A5E", 
+      },
+      fontFamily: {
+        customFont: ['Montserrat', 'sans-serif'],
+      },
+      fontSize: {
+        customFontSize: '36px', 
       },
     },
   },
