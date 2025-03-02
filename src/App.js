@@ -11,7 +11,7 @@ import Packages from "./components/packages";
 function App() {
   return (
     <div className="App">
-      <Router basename="/infina">
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
